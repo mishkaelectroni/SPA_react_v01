@@ -11,13 +11,21 @@ import Contact from './contact';
 import './contact.css'
 
 class App extends Component {
-  render() {
+  render()
+  
+   {
     return (
       <div className="App">
         <div className="App-header">
             <MenuHeader />         
         </div>
         <div className="slider">
+          <div className="headertext">
+              <h1>This is main heading</h1>
+              <h5>Lorem ipsum is simply dummy text</h5>
+              <h5>of the printing</h5>
+              <button>Learn More</button>
+          </div>
           <img src={require('./img/header1.png')} alt="foto" />
         </div> 
       

@@ -8,11 +8,34 @@
   color: #000;
   text-decoration: none;
 }
+.headertext {
+  position: absolute;
+  top: 17%;
+  right: 0;
+  left: 0;
+  color: #fff;
+  font-family: Allerta, sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.headertext button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 0.8em 1.5em 0.8em 1.5em;
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+.headertext button:hover {
+  opacity: 0.7;
+  color: #F8F9FB;
+  cursor: pointer;
+}
 .slider { 
   display: block;
+  position: relative;
 }
 .slider img {
   max-width: 100%;
-
 }
 

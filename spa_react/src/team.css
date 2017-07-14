@@ -1,3 +1,19 @@
 .team {
-	
+	margin: 0 auto;
+	text-align: center;
+	font-family: Allerta, sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.teamFoto {
+	padding: 2% 3% 2% 3%;
+}
+.teamFoto  li{
+	list-style: none;
+	display: inline-block;
+	width: 23%;
+}
+.teamFoto img {
+	max-width: 100%;
+	border-radius: 50%;
 }

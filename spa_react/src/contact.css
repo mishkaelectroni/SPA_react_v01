@@ -1,4 +1,6 @@
 .contact {
 	display: grid;
 	background-image: url('./img/footer1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
