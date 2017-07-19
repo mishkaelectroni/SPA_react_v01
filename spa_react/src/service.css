@@ -1,3 +1,56 @@
 .service {
 	background: #F1F1F1;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.service ul {
+	padding-left: 0;
+}
+.serviceMain {
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+    top: 8%;
+    left: 5%;
+}
+.serviceOne, .serviceTwo, .serviceThree {
+	width: 30%;
+	float: left;
+}
+.serviceMain li {
+	display: inline-block;
+	width: 80%;
+	padding: 3% 7% 3% 7%;
+	margin: 0.15% 3% 0.15% 3%;
+}
+.serviceMain li:nth-child(1) {
+	background-color: #485460;
+	color: #fff;
+}
+.serviceMain li:nth-child(2) {
+	background-color: #F8F9FB;
+	color: #5C606A;
+}
+.serviceMain li:nth-child(n+3) {
+	background-color: #fff;
+	color: #909499;
+}
+.serviceMain li:nth-child(9) {
+	padding-top: 6%;
+	padding-bottom: 6%;
+	background-color: #F8F9FB;
+	color: #5C606A;
+}	
+.serviceMain button {
+	padding: 4% 14% 4% 14%;
+	background-color: #788593;
+	border-radius: 2px;
+	border-color: transparent;
+	color: #fff;
+	font-size: 1.2em;
+}
+.serviceMain button:hover {
+	background-color: #48CBCD;
+	cursor: pointer;
 }
