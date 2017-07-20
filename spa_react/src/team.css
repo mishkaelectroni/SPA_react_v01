@@ -11,6 +11,9 @@ h2 {
 .teamFoto {
 	padding: 2% 3% 2% 3%;
 }
+.teamFoto ul {
+	padding-left: 0;
+}
 .teamFoto  li{
 	list-style: none;
 	display: inline-block;

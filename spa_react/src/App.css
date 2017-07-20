@@ -10,7 +10,7 @@
 }
 .headertext {
   position: absolute;
-      bottom: 37%;
+    bottom: 37%;
   right: 0;
   left: 0;
   color: #fff;
@@ -22,6 +22,7 @@
   background-color: transparent;
   color: #fff;
   font-size: 0.9em;
+  margin-top: 4%;
   padding: 0.8em 1.5em 0.8em 1.5em;
   border: 3px solid #fff;
   border-radius: 3px;
@@ -32,10 +33,14 @@
   cursor: pointer;
 }
 .slider { 
+  background-image: url('./img/header1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
   position: relative;
 }
-.slider img {
-  max-width: 100%;
+.sliderFon {
+  background-color: #485460;
+  opacity: 0.8;
 }
 

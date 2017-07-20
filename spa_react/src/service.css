@@ -20,9 +20,13 @@
 }
 .serviceMain li {
 	display: inline-block;
-	width: 80%;
+	width: 75%;
 	padding: 3% 7% 3% 7%;
-	margin: 0.15% 3% 0.15% 3%;
+	margin: 0.15% 2% 0.15% 2%;
+}
+.serviceMain h3 {
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 .serviceMain li:nth-child(1) {
 	background-color: #485460;
@@ -32,18 +36,22 @@
 	background-color: #F8F9FB;
 	color: #5C606A;
 }
+.serviceMain h5 {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
 .serviceMain li:nth-child(n+3) {
 	background-color: #fff;
 	color: #909499;
 }
 .serviceMain li:nth-child(9) {
-	padding-top: 6%;
-	padding-bottom: 6%;
+	padding-top: 4%;
+	padding-bottom: 4%;
 	background-color: #F8F9FB;
 	color: #5C606A;
 }	
 .serviceMain button {
-	padding: 4% 14% 4% 14%;
+	padding: 3% 14% 3% 14%;
 	background-color: #788593;
 	border-radius: 2px;
 	border-color: transparent;

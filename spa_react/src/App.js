@@ -20,13 +20,14 @@ class App extends Component {
             <MenuHeader />         
         </div>
         <div className="slider">
+        <div className="sliderFon">
           <div className="headertext">
               <h1>This is main heading</h1>
               <h5>Lorem ipsum is simply dummy text</h5>
               <h5>of the printing</h5>
               <button>Learn More</button>
           </div>
-          <img src={require('./img/header1.png')} alt="foto" />
+        </div> 
         </div> 
       
           <Team />       

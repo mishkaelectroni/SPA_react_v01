@@ -4,3 +4,90 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.contactFon {
+	background: #000;
+	opacity: 0.7;	
+}
+.contact h2 {
+	color: #fff;
+	font-size: 2em;
+	font-weight: 200;
+	padding-top: 6%;
+}
+.contactMain {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 5%; 
+}
+.contactText {
+	width: 75%;
+	padding-left: 15%;
+	margin-right: 8%;
+	float: left;
+	text-align: left;
+}
+.contactText h3 {
+	font-weight: 200;
+	color: #fff;
+}
+.contactText p:nth-child(2) {
+	color: #A1A3A5;
+	font-size: 0.8em;
+}
+.contactText p:nth-child(n+3) {
+	color: #B7A6D9;
+	font-size: 0.8em;
+}
+.contactText ul {
+	padding-top: 15px;
+	padding-left: 0;
+}
+.contactText li{
+	display: inline-block;	
+	padding-right: 15px;
+}
+.contactText img {
+	width: 100%;
+	border-radius: 50%;
+	-moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+}
+.contactText img:hover {
+	-webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ cursor: pointer;
+}
+.contactForm {
+	display: block;
+	text-align: left;
+	padding-top: 20px;
+}
+.contactForm input {
+	width: 40%;
+	margin-right: 4%;
+	margin-bottom: 1.5%;
+}
+.contactForm input, textarea {
+	padding: 0.7em 0 0.7em 0.7em;
+	border-radius: 3px;
+	border-color: transparent;
+}
+.contactForm textarea {
+	width: 86.5%;
+}
+.contactForm button {
+	float: right;
+	margin-right: 11%;
+	padding: 0.3em 2em 0.3em 2em;
+	border-color: transparent;
+	border-radius: 3px;
+	background-color: #48CBCD;
+	color: #fff;
+	font-size: 1.4em;
+}
+.contactForm button:hover {
+	cursor: pointer;
+	background-color: #788593;
+}
